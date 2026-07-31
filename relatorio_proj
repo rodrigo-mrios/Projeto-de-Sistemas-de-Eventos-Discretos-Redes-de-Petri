@@ -1,0 +1,154 @@
+CPN Tools state space report for:
+/cygdrive/C/Users/nataf/Downloads/ProjetoCPN.cpn
+Report generated: Thu Jul 30 21:45:43 2026
+
+
+ Statistics
+------------------------------------------------------------------------
+
+  State Space
+     Nodes:  670
+     Arcs:   1722
+     Secs:   0
+     Status: Full
+
+  Scc Graph
+     Nodes:  1
+     Arcs:   0
+     Secs:   0
+
+
+ Boundedness Properties
+------------------------------------------------------------------------
+
+  Best Integer Bounds
+                             Upper      Lower
+     Aeroporto'Din 1         1          0
+     Aeroporto'Frota 1       3          0
+     Aeroporto'G_livre 1     3          0
+     Aeroporto'G_ocupado 1   3          0
+     Aeroporto'Gtin 1        3          0
+     Aeroporto'Pbin 1        3          0
+     Aeroporto'Pin 1         1          0
+     Aeroporto'Pista_livre 1 1          0
+     Aeroporto'Txin 1        1          1
+     Aeroporto'Txout 1       1          1
+     Aeroporto'wait_Pin 1    3          0
+
+  Best Upper Multi-set Bounds
+     Aeroporto'Din 1     1`gt(1)++
+1`gt(2)++
+1`gt(3)
+     Aeroporto'Frota 1   3`()
+     Aeroporto'G_livre 1 1`gt(1)++
+1`gt(2)++
+1`gt(3)
+     Aeroporto'G_ocupado 1
+                         1`gt(1)++
+1`gt(2)++
+1`gt(3)
+     Aeroporto'Gtin 1    1`gt(1)++
+1`gt(2)++
+1`gt(3)
+     Aeroporto'Pbin 1    1`gt(1)++
+1`gt(2)++
+1`gt(3)
+     Aeroporto'Pin 1     1`gt(1)++
+1`gt(2)++
+1`gt(3)
+     Aeroporto'Pista_livre 1
+                         1`()
+     Aeroporto'Txin 1    1`[]++
+1`[gt(1)]++
+1`[gt(1),gt(2)]++
+1`[gt(1),gt(2),gt(3)]++
+1`[gt(1),gt(3)]++
+1`[gt(1),gt(3),gt(2)]++
+1`[gt(2)]++
+1`[gt(2),gt(1)]++
+1`[gt(2),gt(1),gt(3)]++
+1`[gt(2),gt(3)]++
+1`[gt(2),gt(3),gt(1)]++
+1`[gt(3)]++
+1`[gt(3),gt(1)]++
+1`[gt(3),gt(1),gt(2)]++
+1`[gt(3),gt(2)]++
+1`[gt(3),gt(2),gt(1)]
+     Aeroporto'Txout 1   1`[]++
+1`[gt(1)]++
+1`[gt(1),gt(2)]++
+1`[gt(1),gt(2),gt(3)]++
+1`[gt(1),gt(3)]++
+1`[gt(1),gt(3),gt(2)]++
+1`[gt(2)]++
+1`[gt(2),gt(1)]++
+1`[gt(2),gt(1),gt(3)]++
+1`[gt(2),gt(3)]++
+1`[gt(2),gt(3),gt(1)]++
+1`[gt(3)]++
+1`[gt(3),gt(1)]++
+1`[gt(3),gt(1),gt(2)]++
+1`[gt(3),gt(2)]++
+1`[gt(3),gt(2),gt(1)]
+     Aeroporto'wait_Pin 1
+                         3`()
+
+  Best Lower Multi-set Bounds
+     Aeroporto'Din 1     empty
+     Aeroporto'Frota 1   empty
+     Aeroporto'G_livre 1 empty
+     Aeroporto'G_ocupado 1
+                         empty
+     Aeroporto'Gtin 1    empty
+     Aeroporto'Pbin 1    empty
+     Aeroporto'Pin 1     empty
+     Aeroporto'Pista_livre 1
+                         empty
+     Aeroporto'Txin 1    empty
+     Aeroporto'Txout 1   empty
+     Aeroporto'wait_Pin 1
+                         empty
+
+
+ Home Properties
+------------------------------------------------------------------------
+
+  Home Markings
+     All
+
+
+ Liveness Properties
+------------------------------------------------------------------------
+
+  Dead Markings
+     None
+
+  Dead Transition Instances
+     None
+
+  Live Transition Instances
+     All
+
+
+ Fairness Properties
+------------------------------------------------------------------------
+
+  Impartial Transition Instances
+     Aeroporto'AND_P 1
+     Aeroporto'Dend 1
+     Aeroporto'Gtend 1
+     Aeroporto'Pbend 1
+     Aeroporto'Pend 1
+     Aeroporto'Sin 1
+     Aeroporto'Sout 1
+     Aeroporto'Txin_end 1
+     Aeroporto'Txout_end 1
+
+  Fair Transition Instances
+     None
+
+  Just Transition Instances
+     None
+
+  Transition Instances with No Fairness
+     None
