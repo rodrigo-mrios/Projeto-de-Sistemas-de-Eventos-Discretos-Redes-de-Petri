@@ -51,3 +51,4 @@ O modelo implementado difere da imagem apenas no número de gates no estacioname
 <p align="center"><img width="1245" height="813" alt="image" src="https://github.com/user-attachments/assets/24f14274-ec20-4f94-bdd4-2d459b1a9c39" />
 
 ## Vídeo Demonstrativo
+- Link: https://youtu.be/2Dka87vbVx0
