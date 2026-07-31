@@ -19,9 +19,32 @@ O objetivo do projeto é desenvolver um modelo que represente um sistema de cont
 - Prioridade de acesso
   - Apenas um avião pode entrar ou sair dos gates por vez;
   - Aviões não podem pousar/decolar caso a pista esteja ocupada ou todos os gates estejam ocupados.
-##
+### Transições
+- Sin: Solicitação de pouso na pista;
+- AND_P: Conjunto de condições para autorizar pouso;
+- Pend: Resultado do pouso;
+- Txin_end: Resultado do táxi de chegada;
+- Gtend: Resultado da entrada no Gate;
+- Sout: Solicitação de saida de um dos Gates;
+- Pbend: Resultado da saída do Gate;
+- Txout_end: Resultado do táxi de saída;
+- Dend: Resultado da decolagem.
+### Lugares
+- Frota: Limitador do número de solicitações de pouso;
+- wait_Pin: Aguardando autorização de pouso;
+- Pin: Liberação para chegada na pista;
+- Txin: Liberar a entrada na pista do táxi de entrada;
+- Gtin: Alocação da aeronave no Gate;
+- G_ocupado: Gate ocupado por aeronave;
+- Pbin: Liberação da saída do Gate;
+- Txout: Liberar a entrada na pista do táxi de saída;
+- Din: Liberação para decolagem na pista;
+- G_livre: Gate livre para alocação de aeronave;
+- Pista_livre: Condição para impedir colisões na pista.
 ## Modelo do Aeroporto
 O modelo implementado difere da imagem apenas no número de gates no estacionamento.
 <p align="center"><img src=https://help.eadaviacaocivil.com/wp-content/uploads/2024/01/Screenshot_114.png>
   
 <p align="center">Fonte: https://help.eadaviacaocivil.com/aeronaves-e-aerodromos/
+
+## Vídeo Demonstrativo
